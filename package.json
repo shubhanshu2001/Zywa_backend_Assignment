@@ -1,0 +1,23 @@
+{
+  "name": "card-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Shubhanshu Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.0",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
