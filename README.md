@@ -59,6 +59,12 @@ The application follows a server-client architecture where the server (backend) 
 - csvtojson: Library for converting CSV data to JSON format
 - csv-parser: Library for parsing CSV files
 
+## Docker
+
+To run the application using Docker, you can use the provided Dockerfile:
+- Build the Docker image: `docker build -t zywa-card-status .`
+- Run the Docker container: `docker run -p 3000:80 zywa-card-status`
+
 ## Usage
 
 Start the server: npm start
