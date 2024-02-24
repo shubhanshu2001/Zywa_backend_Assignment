@@ -6,7 +6,7 @@ import csvtojson from 'csvtojson';
 async function readDataFromCSV() {
   try {
     const db = await connectDatabase();
-    const dataFolder = path.join('S:/Zywa assignment/backend', 'data');
+    const dataFolder = path.join('data');
 
     fs.readdirSync(dataFolder).forEach(async (file) => {
       const collectionName = path.parse(file).name;

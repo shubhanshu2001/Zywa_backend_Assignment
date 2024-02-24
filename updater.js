@@ -6,7 +6,7 @@ import connectDatabase from './database.js';
 async function readDataFolder() {
   try {
     const db = await connectDatabase();
-    const dataFolder = path.join('S:/Zywa assignment/backend', 'data');
+    const dataFolder = path.join('data');
 
     fs.watch(dataFolder, async (eventType, filename) => {
       console.log(`File ${filename} has been ${eventType}`);
